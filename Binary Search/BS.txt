@@ -1,0 +1,49 @@
+Q1)Ceiling of a number
+
+arr=[2,3,5,9,14,16,18]
+target=15, ceiling->smallest elemt in array greater or= target=16
+
+Soln: apply BS instead of returning -1 ,return start
+
+Q2)Floor of a number
+
+floor=greatest number smaller or = target
+for eg: floor of 15=14
+
+Soln: return end instead of -1
+
+Q3)Find smallest letter greater than target
+
+1. Same approach as celing
+2. Ignore the target =
+3. arr=[c,d,f,j] target=j ans=c
+
+Q4) First and Last Position of Element in Sorted Array
+
+arr=[5,7,7,7,7,8,8,10]
+target=7
+first pos=1 , last pos=4;
+ans=[1,4]
+
+
+Q5)Find position of an element in infinite sorted array
+
+.cant use arr.length()
+arr=[2,3,5,6,7,8,10,11,12,15,20,23,30]
+target=15
+
+Approach: Check in Chunks.
+	  find start and end then apply BS
+
+Q6)Peak index in a mountain array
+
+arr=[1,2,4,5,7,6,3,2]
+find the largest no.
+
+
+
+
+
+
+
+
